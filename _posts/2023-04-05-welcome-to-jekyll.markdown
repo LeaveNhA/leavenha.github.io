@@ -1,29 +1,21 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-04-05 19:18:49 +0300
-categories: jekyll update
+title: "Hello, World!"
+categories:
+  - Me
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Hello, World!
 
-`YEAR-MONTH-DAY-title.MARKUP`
+As a programming language enthusiast, I couldn't resist starting this blog with a classic "Hello, World!" post. So here it is, in all its glory in ClojureScript:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+```clojure
+(println "Hello, World!")
+```
 
-Jekyll also offers powerful support for code snippets:
+Of course, there are countless other ways to write this program in different programming languages, and I encourage you to experiment and explore the nuances and subtleties of each language's syntax and semantics.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+As for me, I am currently pursuing my Master's degree in Computer Science with a focus on theoretical computer science and programming language theory. I am passionate about exploring the fundamental principles and ideas behind programming languages, and I believe that a deep understanding of these concepts is essential for creating elegant and powerful software systems.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+In this blog, I plan to share my thoughts and insights on various topics related to programming languages, including language design, implementation, and use cases. I also hope to showcase some of my own projects and contributions to the programming language community.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+So stay tuned, and thanks for joining me on this journey of discovery and exploration in the world of programming languages!
