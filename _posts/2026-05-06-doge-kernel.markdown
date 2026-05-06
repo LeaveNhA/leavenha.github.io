@@ -20,29 +20,50 @@ I didn't want to implement that from scratch. Who would? So I leaned on `ipykern
 
 You can see the skeleton in the repo. `__init__.py` is two lines:
 
+[\_\_init\_\_.py](https://github.com/LeaveNhA/idg/blob/master/idg/__init__.py)
 ```python
-"""Idg: jupyter kernel for dg"""
 __version__ = '1.0'
-from .idg import IdgKernel
-__main__.py launches it:
 
-python
+from .idg import IdgKernel
+```
+
+A couple of lines to launches it:
+
+[\_\_main\_\_.py](https://github.com/LeaveNhA/idg/blob/master/idg/__main__.py)
+```python
+"""__main__"""
+
 from ipykernel.kernelapp import IPKernelApp
 from . import IdgKernel
-IPKernelApp.launch_instance(kernel_class=IdgKernel)
-And a kernel.json tells Jupyter how to start it:
 
-json
+IPKernelApp.launch_instance(kernel_class=IdgKernel)
+```
+
+
+A couple of lines to tell the Jupyter how to start the kernel.
+
+[kernel.json](https://github.com/LeaveNhA/idg/blob/master/idg/kernel.json)
+```json
 {
-  "argv": ["python", "-m", "dg", "-m", "idg", "-f", "{connection_file}"],
-  "display_name": "Idg",
-  "language": "dg"
+    "argv": [
+        "python",
+        "-m",
+        "dg",
+        "-m",
+        "idg",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "Idg",
+    "language": "dg"
 }
 ```
 
+The rest is simply the Kernel's protocol implementation for our backend. You can find it [here](https://github.com/LeaveNhA/idg/blob/master/idg/idg.dg). It can show images and draw plots too.
+
 ## After Math
 
-It wasn't pretty. Actually it was, for me. It had bugs. The README admits: "Lots of, (bugs) I believe?" But it worked. I submitted assignment, and passed.
+It wasn't pretty. Actually it was, for me. It has bugs. The README admits: "Lots of, (bugs) I believe?" But it worked. I submitted assignment, and passed.
 
 The instructor asked which language it was. Never told them it's an esoteric language. They just saw a clean notebook with code and results. I'm pretty sure that the syntax got them pretty hard and the matching output and shorter LoC based on Python implementation of the same assignment hit them harder.
 
