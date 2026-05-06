@@ -50,6 +50,5 @@ The instructor asked which language it was. Never told them it's an esoteric lan
 
 I'm not the first person to write a Jupyter kernel for a niche language, and I won't be the last. But there's something liberating about refusing to let tooling dictate your workflow. If the ecosystem doesn't support your language, you bridge it. That's what programming is.
 
-I wrote it for all of us. Even if "all of us" was just me, one assignment, and a language that never left the CPython VM.
 
 If you enjoy this kind of absurd problem-solving: I'm currently open for Clojure/ClojureScript consulting and small gigs. DM me on Clojurians Slack or find my contacts on GitHub. Crypto payments preferred.
