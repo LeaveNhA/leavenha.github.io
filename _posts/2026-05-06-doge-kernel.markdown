@@ -73,3 +73,5 @@ I'm not the first person to write a Jupyter kernel for a niche language, and I w
 
 
 If you enjoy this kind of absurd problem-solving: I'm currently open for Clojure/ClojureScript consulting and small gigs. DM me on Clojurians Slack or find my contacts on GitHub. Crypto payments preferred.
+
+<style>.page__taxonomy{display:none!important;}</style>
