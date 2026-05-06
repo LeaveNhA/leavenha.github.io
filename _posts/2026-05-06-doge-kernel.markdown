@@ -2,7 +2,8 @@
 layout: post
 title: "How I Wrote a Jupyter Kernel for an Esoteric Language to Hand In My Homework"
 date: 2026-05-06 01:42:00 +0300
-categories: [programming, languages, jupyter, kernel, doge]
+categories:
+  - Me
 ---
 
 A few years ago, I had a machine learning assignment during my Master in Data Science. The assignment was *not* clear for me. I had rough times because of my background. I came from CS background, we don't give assignments without clear requirements where I came from. I asked; can I use any programming language? The answer was shocking for me; Yes!
