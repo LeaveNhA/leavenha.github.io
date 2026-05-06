@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How I Wrote a Jupyter Kernel for an Esoteric Language to Hand In My Homework"
 date: 2026-05-06 01:42:00 +0300
 categories:
