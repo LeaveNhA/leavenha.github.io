@@ -67,6 +67,8 @@ It wasn't pretty. Actually it was, for me. It has bugs. The README admits: "Lots
 
 The instructor asked which language it was. Never told them it's an esoteric language. They just saw a clean notebook with code and results. I'm pretty sure that the syntax got them pretty hard and the matching output and shorter LoC based on Python implementation of the same assignment hit them harder.
 
+You can find the assignment repository here: [UIST602-DG](https://github.com/LeaveNhA/UIST602-DG)
+
 ## Why This Matters
 
 I'm not the first person to write a Jupyter kernel for a niche language, and I won't be the last. But there's something liberating about refusing to let tooling dictate your workflow. If the ecosystem doesn't support your language, you bridge it. That's what programming is.
