@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/leavenha.jpeg"
+  avatar           : "/assets/images/leavenha_alt.jpg"
   bio              : "Author, Math lover, Sceptic MIS graduate, CS student, M.Sc. in Data Science, 5x Engineer."
   location         : "*, TR"
   links:
